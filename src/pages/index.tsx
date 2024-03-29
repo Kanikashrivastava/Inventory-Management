@@ -125,7 +125,7 @@ function Home() {
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 1300 }} aria-label="a dense table">
             <TableHead>
-              <TableRow>
+              <TableRow style={{ background: "#212124" }}>
                 <TableCell>Name</TableCell>
                 <TableCell align="left">Category</TableCell>
                 <TableCell align="left">Price</TableCell>
