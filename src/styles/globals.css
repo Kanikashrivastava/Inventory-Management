@@ -98,7 +98,7 @@ a {
 }
 
 .css-1abhk06-MuiTable-root	{
-  background-color: #212124;
+  background-color: #212124 !important;
 }
 .MuiTableCell-root{
   color: #fff;

@@ -137,7 +137,7 @@ function Home() {
             <TableBody>
               {products?.map((product: any) => (
                 <TableRow
-                  style={{ color: product.disable ? 'grey' : "white" }}
+                  style={{ color: product.disable ? 'grey' : "white", background: "#212124" }}
                   key={product.id}
                   sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                 >
